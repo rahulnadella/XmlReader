@@ -23,7 +23,6 @@
  OTHER DEALINGS IN THE SOFTWARE.
  
  XMLReader.m
- PrescriptionManager
  
  Created by Rahul Nadella on 2/28/12.
  Copyright 2012 Rahul Nadella. All rights reserved.
