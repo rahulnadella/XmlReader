@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		FCDA721F19EECA6E00B7CF32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA721E19EECA6E00B7CF32 /* main.m */; };
 		FCDA722219EECA6E00B7CF32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA722119EECA6E00B7CF32 /* AppDelegate.m */; };
-		FCDA722519EECA6E00B7CF32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA722419EECA6E00B7CF32 /* ViewController.m */; };
-		FCDA722819EECA6E00B7CF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDA722619EECA6E00B7CF32 /* Main.storyboard */; };
 		FCDA722A19EECA6E00B7CF32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDA722919EECA6E00B7CF32 /* Images.xcassets */; };
-		FCDA722D19EECA6E00B7CF32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCDA722B19EECA6E00B7CF32 /* LaunchScreen.xib */; };
-		FCDA723919EECA6E00B7CF32 /* XmlReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA723819EECA6E00B7CF32 /* XmlReaderTests.m */; };
+		FCDA724419EECB1900B7CF32 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA724319EECB1900B7CF32 /* XMLReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +29,11 @@
 		FCDA721E19EECA6E00B7CF32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCDA722019EECA6E00B7CF32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCDA722119EECA6E00B7CF32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCDA722319EECA6E00B7CF32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCDA722419EECA6E00B7CF32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FCDA722719EECA6E00B7CF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCDA722919EECA6E00B7CF32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FCDA722C19EECA6E00B7CF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FCDA723219EECA6E00B7CF32 /* XmlReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmlReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDA723719EECA6E00B7CF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCDA723819EECA6E00B7CF32 /* XmlReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmlReaderTests.m; sourceTree = "<group>"; };
+		FCDA724219EECB1900B7CF32 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		FCDA724319EECB1900B7CF32 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +75,11 @@
 		FCDA721B19EECA6E00B7CF32 /* XmlReader */ = {
 			isa = PBXGroup;
 			children = (
+				FCDA724219EECB1900B7CF32 /* XMLReader.h */,
+				FCDA724319EECB1900B7CF32 /* XMLReader.m */,
 				FCDA722019EECA6E00B7CF32 /* AppDelegate.h */,
 				FCDA722119EECA6E00B7CF32 /* AppDelegate.m */,
-				FCDA722319EECA6E00B7CF32 /* ViewController.h */,
-				FCDA722419EECA6E00B7CF32 /* ViewController.m */,
-				FCDA722619EECA6E00B7CF32 /* Main.storyboard */,
 				FCDA722919EECA6E00B7CF32 /* Images.xcassets */,
-				FCDA722B19EECA6E00B7CF32 /* LaunchScreen.xib */,
 				FCDA721C19EECA6E00B7CF32 /* Supporting Files */,
 			);
 			path = XmlReader;
@@ -105,7 +97,6 @@
 		FCDA723519EECA6E00B7CF32 /* XmlReaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				FCDA723819EECA6E00B7CF32 /* XmlReaderTests.m */,
 				FCDA723619EECA6E00B7CF32 /* Supporting Files */,
 			);
 			path = XmlReaderTests;
@@ -199,8 +190,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDA722819EECA6E00B7CF32 /* Main.storyboard in Resources */,
-				FCDA722D19EECA6E00B7CF32 /* LaunchScreen.xib in Resources */,
 				FCDA722A19EECA6E00B7CF32 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDA722519EECA6E00B7CF32 /* ViewController.m in Sources */,
 				FCDA722219EECA6E00B7CF32 /* AppDelegate.m in Sources */,
+				FCDA724419EECB1900B7CF32 /* XMLReader.m in Sources */,
 				FCDA721F19EECA6E00B7CF32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDA723919EECA6E00B7CF32 /* XmlReaderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +230,6 @@
 			targetProxy = FCDA723319EECA6E00B7CF32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FCDA722619EECA6E00B7CF32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCDA722719EECA6E00B7CF32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FCDA722B19EECA6E00B7CF32 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCDA722C19EECA6E00B7CF32 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FCDA723A19EECA6E00B7CF32 /* Debug */ = {
